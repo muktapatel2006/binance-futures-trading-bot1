@@ -1,0 +1,12 @@
+2026-07-02 22:16:45,593 - INFO - --- Initating Order Request: BUY 0.01 BTCUSDT (MARKET) ---
+2026-07-02 22:16:45,596 - INFO - Sending API Request to /fapi/v1/order with params: symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1783010805595
+2026-07-02 22:16:47,111 - ERROR - API Error Response [Status 401]: {'code': -2014, 'msg': 'API-key format invalid.'}
+2026-07-02 22:20:21,480 - INFO - --- Initating Order Request: BUY 0.01 BTCUSDT (MARKET) ---
+2026-07-02 22:20:21,481 - INFO - Sending API Request to /fapi/v1/order with params: symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1783011021481
+2026-07-02 22:20:22,898 - ERROR - API Error Response [Status 400]: {'code': -1021, 'msg': 'Timestamp for this request is outside of the recvWindow.'}
+2026-07-02 22:24:53,707 - INFO - --- Initating Order Request: BUY 0.01 BTCUSDT (MARKET) ---
+2026-07-02 22:24:53,707 - INFO - Sending API Request to /fapi/v1/order with params: symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1783011293707&recvWindow=60000
+2026-07-02 22:24:55,053 - INFO - API Success Response: {'orderId': 18524866423, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': '2lAV2cT1rxH7HfSKjTzxmK', 'price': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1783011299046}
+2026-07-02 22:26:45,909 - INFO - --- Initating Order Request: BUY 0.01 BTCUSDT (LIMIT) ---
+2026-07-02 22:26:45,910 - INFO - Sending API Request to /fapi/v1/order with params: symbol=BTCUSDT&side=BUY&type=LIMIT&quantity=0.01&price=50000.0&timeInForce=GTC&timestamp=1783011405910&recvWindow=60000
+2026-07-02 22:26:47,251 - INFO - API Success Response: {'orderId': 18525179810, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'HcQDpMsRqzA8qb9QRi8yWb', 'price': '50000.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1783011411329}
